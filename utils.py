@@ -68,7 +68,6 @@ def search_by_rating(rating):
     titles_by_rating = []
     for i in result:
         titles_by_rating.append(dict(i))
-    print(titles_by_rating)
 
     return titles_by_rating
 
